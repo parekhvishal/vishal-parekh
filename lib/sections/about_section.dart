@@ -124,18 +124,18 @@ class AboutSection extends StatelessWidget {
         
         const SizedBox(height: 30),
         
-        // Download CV Button
-        SizedBox(
-          width: Responsive.isDesktop(context) ? null : double.infinity,
-          child: ElevatedButton.icon(
-            onPressed: _downloadCV,
-            icon: const FaIcon(FontAwesomeIcons.download, size: 18),
-            label: const Text('Download CV'),
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
-            ),
-          ),
-        ),
+        // // Download CV Button
+        // SizedBox(
+        //   width: Responsive.isDesktop(context) ? null : double.infinity,
+        //   child: ElevatedButton.icon(
+        //     onPressed: _downloadCV,
+        //     icon: const FaIcon(FontAwesomeIcons.download, size: 18),
+        //     label: const Text('Download CV'),
+        //     style: ElevatedButton.styleFrom(
+        //       padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+        //     ),
+        //   ),
+        // ),
       ],
     );
   }
